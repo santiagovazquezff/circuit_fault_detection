@@ -1,0 +1,16 @@
+{
+  "features": [
+    "A1_gain",
+    "phase",
+    "THD",
+    "noise_rel",
+    "A2_gain",
+    "A3_gain",
+    "f0"
+  ],
+  "classes": [
+    "healthy",
+    "open_r1",
+    "short_r1"
+  ]
+}
