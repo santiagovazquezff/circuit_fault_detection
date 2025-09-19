@@ -176,7 +176,7 @@ No exact duplicates were found between training and test sets.
 
 ## Interactive Demo
 
-An interactive demo is provided in demo/demo.ipynb.
+**An interactive demo is provided in demo/demo.ipynb.**
 
 Steps to run:
 1. Download one of the example files (demo_file_1.csv, demo_file_2.csv, demo_file_3.csv) from the demo
@@ -193,6 +193,8 @@ Screenshot of the file upload box below:
 Example output is shown below:
 
 Each Colab session runs as a temporary copy; no changes are saved to the repository.
+
+---
 
 ## Installation
 
