@@ -1,5 +1,5 @@
 # Circuit Fault Detection with Machine Learning  
-**Refer to main_report: for a more comprehensive report explaining the model in depth and a user guide for the demo.**
+**Refer to main_report (https://github.com/santiagovazquezff/circuit_fault_detection/blob/main/main_report/Classification%20Machine%20Learning%20Model%20for%20Faults%20in%20a%20Non-Inverting%20Amplifier.pdf) for a more comprehensive report explaining the model in depth and a user guide for the demo.**
 
 This repository implements a machine learning pipeline to automatically classify faults in a simple non-inverting amplifier circuit. The model distinguishes between three circuit states:  
 
