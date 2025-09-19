@@ -133,6 +133,7 @@ rf.fit(Xtr, ytr)
 ```
 The dataset is split 80/20 (train/test) with stratification. Trained models and metadata are saved in model_artifacts/.
 
+---
 ## Results
 ### Train and Test (with f0 included)
 
@@ -162,12 +163,16 @@ Insert table
 
 No exact duplicates were found between training and test sets.
 
+---
+
 ## Limitations
 
 - Dataset scope: only three fault classes on one amplifier topology.
 - Synthetic data: Altium simulations do not fully capture real-world noise and component variability.
 - Feature set: limited to first three harmonics; severe nonlinearities not represented.
 - Perfect scores reflect dataset separability more than real-world robustness.
+
+---
 
 ## Interactive Demo
 
