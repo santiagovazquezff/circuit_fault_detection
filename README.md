@@ -58,6 +58,7 @@ def read_multirun_vout_csv(path: str, n_keep=50):
     t = df["s"].to_numpy(float)
     V = df.iloc[:, 1:1+n_keep].to_numpy(float)
     return t, V
+````
 
 Each column corresponds to one waveform, ensuring consistent structure across all classes.
 
@@ -71,7 +72,7 @@ def standardise(t, v, time_window=0.1, n_points=16384):
     t_fit = np.linspace(0.0, time_window, n_points, endpoint=False)
     v_fit = np.interp(t_fit, t2 - t0, v2)
     return t_fit, v_fit
-
+```
 This ensures that all signals are directly comparable regardless of simulation sampling density.
 An illustration of raw vs resampled waveform is shown below:
 
@@ -107,7 +108,7 @@ def lockin_features(v_fit, t_fit, f0):
     noise_rms = float(np.sqrt(max(ms_total - ms_dc - ms_tones, 0.0)))
 
     return A1, ph, thd, noise_rms, A2, A3
-
+```
 A schematic of harmonic extraction is shown below:
 
 ### 4. Dataset Assembly
@@ -115,7 +116,7 @@ A schematic of harmonic extraction is shown below:
 Features are normalised by input amplitude, and optionally the excitation frequency (f0) is added:
 ```python
 X, y, feat_names = build_dataset()
-
+```
 This produces X (features), y (labels), and feat_names.
 
 ### 5. Model Training
@@ -129,7 +130,7 @@ rf = RandomForestClassifier(
     class_weight="balanced_subsample"
 )
 rf.fit(Xtr, ytr)
-
+```
 The dataset is split 80/20 (train/test) with stratification. Trained models and metadata are saved in model_artifacts/.
 
 ## Results
@@ -191,9 +192,12 @@ Each Colab session runs as a temporary copy; no changes are saved to the reposit
 ## Installation
 
 Clone the repository:
+```python
 git clone https://github.com/santiagovazquezff/circuit_fault_detection.git
 cd circuit_fault_detection
-
+```
 
 Install dependencies (Python 3.9+, NumPy, Pandas, scikit-learn, Matplotlib required):
+```python 
 pip install -r requirements.txt
+```
