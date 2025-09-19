@@ -26,8 +26,10 @@ The repository includes dataset generation, feature extraction, model training a
 - Circuit: LM324N non-inverting amplifier.  
   - Healthy configuration (Rf = 10 kΩ, R1 = 1 kΩ). See schematic below:  
 <img width="572" height="441" alt="image" src="https://github.com/user-attachments/assets/18b5304b-fb7f-43aa-8d02-6b66389ba3f4" />
+
   - Short fault configuration (R1 removed). See schematic below:  
 <img width="548" height="435" alt="image" src="https://github.com/user-attachments/assets/d29fe8c8-3593-4d50-9d3b-160dd0a9518a" />
+
   - Open fault configuration (R1 = 1e9 Ω). See schematic below:  
 <img width="556" height="427" alt="image" src="https://github.com/user-attachments/assets/c88b8697-1683-4513-aa2f-091a81bb8908" />
 
