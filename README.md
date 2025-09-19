@@ -186,6 +186,7 @@ Steps to run:
 <img width="685" height="337" alt="image" src="https://github.com/user-attachments/assets/ea765fa5-5882-45c3-b3c3-2d1dcc8b0b7b" />
 
 2. Open demo.ipynb in Colab using the “Open in Colab” button.
+https://colab.research.google.com/github/santiagovazquezff/circuit_fault_detection/blob/main/demo/demo.ipynb
 <img width="380" height="107" alt="image" src="https://github.com/user-attachments/assets/ed334e88-e89c-4ed3-b655-4f399fcc048f" />
 
 3. Run all cells.
@@ -197,7 +198,7 @@ Steps to run:
 5. Enter the corresponding amplitude and frequency values.
 <img width="1021" height="85" alt="image" src="https://github.com/user-attachments/assets/55b59d5a-33ba-458f-a72e-a77878da390d" />
 
-7. View the predicted class, probabilities, and waveform plots.
+6. View the predicted class, probabilities, and waveform plots.
 <img width="656" height="458" alt="image" src="https://github.com/user-attachments/assets/f08a9676-4815-4b36-9b39-81fe4e433845" />
 
 Each Colab session runs as a temporary copy; no changes are saved to the repository.
