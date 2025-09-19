@@ -1,4 +1,5 @@
 # Circuit Fault Detection with Machine Learning  
+**Refer to main_report: for a more comprehensive report explaining the model in depth and a user guide for the demo.**
 
 This repository implements a machine learning pipeline to automatically classify faults in a simple non-inverting amplifier circuit. The model distinguishes between three circuit states:  
 
@@ -176,7 +177,7 @@ No exact duplicates were found between training and test sets.
 
 ## Interactive Demo
 
-**An interactive demo is provided in demo/demo.ipynb.**
+**An interactive demo is provided in demo/demo.ipynb: https://github.com/santiagovazquezff/circuit_fault_detection/blob/main/demo/demo.ipynb.**
 
 Steps to run:
 1. Download one of the example files (demo_file_1.csv, demo_file_2.csv, demo_file_3.csv) from the demo
